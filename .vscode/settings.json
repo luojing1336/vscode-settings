@@ -2,7 +2,6 @@
   // Visuals
   "workbench.colorTheme": "Atom One Dark",
   "workbench.preferredDarkColorTheme": "Atom One Dark",
-  "workbench.productIconTheme": "material-product-icons",
   "workbench.editor.tabCloseButton": "left",
   "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "material-icon-theme",
@@ -11,13 +10,12 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
-
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.env.osx": {},
   "react-native-tools.showUserTips": false,
   // Editor
-  "editor.fontFamily": "Fira Code, JetBrains Mono, Input Mono, monospace, MesloLGS NF",
+  "editor.fontFamily": "Input Mono, JetBrains Mono, Fira Code, monospace, MesloLGS NF",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.accessibilitySupport": "off",
@@ -35,7 +33,7 @@
   "editor.hover.sticky": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
-    "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
+    "source.fixAll.eslint": false, // this allows ESLint to auto fix on save
     "source.organizeImports": false
   },
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
@@ -239,5 +237,14 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "console-ninja.featureSet": "Community"
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "console-ninja.featureSet": "Community",
+  "dynoFileUtils.folderExclude": [
+    "node_modules",
+    ".git",
+    "build",
+    "dist"
+  ]
 }
