@@ -1,0 +1,30 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+  {
+    "key": "cmd+o",
+    "command": "projectManager.listGitProjects#sideBarGit"
+  },
+  {
+    "key": "cmd+n",
+    "command": "dynoFileUtils.newItems"
+  },
+  {
+    "key": "alt+n",
+    "command": "-dynoFileUtils.newItems"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "expand_region",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "undo_expand_region",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+
+]
