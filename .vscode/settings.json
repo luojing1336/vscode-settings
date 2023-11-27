@@ -23,7 +23,7 @@
   "editor.find.addExtraSpaceOnTop": false,
   "editor.guides.bracketPairs": "active",
   "editor.inlineSuggest.enabled": true,
-  "editor.lineNumbers": "interval",
+  "editor.lineNumbers": "on",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderWhitespace": "boundary",
   "editor.suggestSelection": "first",
