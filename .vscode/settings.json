@@ -136,7 +136,6 @@
   "workbench.editor.limit.value": 5,
   "workbench.editor.tabActionLocation": "left",
   "workbench.fontAliasing": "antialiased",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
   "workbench.preferredLightColorTheme": "One Dark Pro Darker",
@@ -148,4 +147,9 @@
   // Other Settings
   "scm.diffDecorationsGutterWidth": 2,
   "diffEditor.ignoreTrimWhitespace": false,
+  "cSpell.userWords": [
+    "Codegeex",
+    "Fira",
+    "Meslo"
+  ],
 }
