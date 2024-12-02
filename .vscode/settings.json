@@ -30,17 +30,18 @@
   // Explorer Settings
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": true,
 
   // Extensions Settings
   "Codegeex.Comment.LanguagePreference": "中文",
   "Codegeex.Privacy": false,
+  "Codegeex.License": "",
   "console-ninja.featureSet": "Community",
   "extensions.autoUpdate": "onlyEnabledExtensions",
   "extensions.ignoreRecommendations": true,
   "gitlens.gitCommands.skipConfirmations": [
     "fetch:command"
   ],
-  "gitlens.views.branches.branches.layout": "list",
   "redhat.telemetry.enabled": false,
   "projectManager.git.baseFolders": [
     "/Users/luojing/WorkProjects"
@@ -102,14 +103,16 @@
   ],
   "todo-tree.highlights.customHighlight": {
     "FIXME": {
+      "foreground": "#000000",
       "background": "#FFFF00",
+      "iconColor": "#FFFF00",
       "icon": "tools",
-      "iconColor": "#FFFF00"
     },
     "TODO": {
+      "foreground": "#000000",
       "background": "#00BFFF",
+      "iconColor": "#00BFFF",
       "icon": "checklist",
-      "iconColor": "#00BFFF"
     }
   },
   "todo-tree.highlights.defaultHighlight": {
@@ -139,7 +142,6 @@
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
   "workbench.preferredLightColorTheme": "One Dark Pro Darker",
-  "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
@@ -148,8 +150,59 @@
   "scm.diffDecorationsGutterWidth": 2,
   "diffEditor.ignoreTrimWhitespace": false,
   "cSpell.userWords": [
+    "amcfortune",
+    "autofetch",
+    "cameraroll",
     "Codegeex",
+    "echarts",
+    "esbenp",
     "Fira",
-    "Meslo"
+    "gradlew",
+    "Huaxia",
+    "Hxcf",
+    "Jing",
+    "jsbundle",
+    "jsencrypt",
+    "luojing",
+    "Meslo",
+    "netinfo",
+    "nuxt",
+    "pbxproj",
+    "RNFS",
+    "Sensorsdata",
+    "swiper",
+    "xcodeproj"
   ],
+  
+  // Format Settings
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // GitLens Settings
+  "gitlens.views.stashes.files.layout": "list",
+  "gitlens.views.scm.grouped.views": {
+    "commits": false,
+    "branches": false,
+    "remotes": false,
+    "stashes": false,
+    "tags": false,
+    "worktrees": false,
+    "contributors": false,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
+  },
+  "gitlens.home.preview.enabled": false,
+  "gitlens.views.commits.files.layout": "list",
+  "gitlens.views.commits.avatars": false,
 }
